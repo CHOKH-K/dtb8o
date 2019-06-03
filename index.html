@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+	<body>
+		<div><h1></h1></div>
+		<div><h1>Баллы</h1></div>
+		<div class="scoretext">
+			0
+		</div>
+		
+		<div> <img src="begemot.jpg" class="w-25 begemot" style="position: absolute;margin-left: 100px; margin-top:700px;"></div>
+		<div> <img src="elephant.jpg" class="w-25 elephant" style="position: absolute;margin-left:1000px; margin-bottom:500px;"></div>
+		<div> <img src="giena.jpg" class="w-25 giena" style="position: absolute;margin-left:650px; margin-top:100px;"></div>
+		<div> <img src="jiraf.jpg" class="w-25 jiraf" style="position: absolute;margin-left:800px; margin-top:400px;"></div>
+		<div> <img src="korova.jpg" class="w-25 korova" style="position: absolute;margin-left:350px; margin-top: 450px;"></div>
+		<div> <img src="lion.jpg" class="w-25 lion" style="position: absolute;margin-left: 750px; margin-top: 750;"></div>
+		<div> <img src="zebra.jpg" class="w-25 zebra" style="position: absolute;margin-left:142px; margin-top:200px;"></div>
+		<div> <img src="nosorog.jpg" class="w-25 nosorog" style="position: absolute;margin-left:0px; margin-top:0px;"></div>
+		<div> <img src="antilop.jpg" class="w-25 antilop" style="margin-left: 400px; margin-top: 1000px;"></div>
+
+	</body>
+	<script>
+		let	score = 0
+			document.querySelector(".antilop").onclick = function(){
+				document.querySelector(".antilop").style.display = "none"
+				document.querySelector(".scoretext").innerHTML = score
+				score = score + 100
+			}
+			document.querySelector(".jiraf").onclick = function(){}
+			document.querySelector(".korova").onclick = function(){}
+			document.querySelector(".antilop").onclick = function(){}
+			document.querySelector(".giena").onclick = function(){}
+			document.querySelector(".lion").onclick = function(){}
+			document.querySelector(".zebra").onclick = function(){}
+			document.querySelector(".elephant").onclick = function(){}
+			document.querySelector(".begemot").onclick = function(){}
+	</script>
+</html>
